@@ -13,7 +13,7 @@
   	    
   	    db.transaction(
     	    function(tx){
-    	   	   tx.sqlexecute(
+    	   	   tx.executeSql(
     	   	   	"CREATE TABLE user(id int primarykey,"
     	   	   	+ "name text)", 
     	   	   	[]);
