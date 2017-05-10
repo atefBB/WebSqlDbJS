@@ -1,0 +1,24 @@
+{
+  "name": "websqldb",
+  "version": "0.0.1",
+  "description": "Test Web SQL Database API",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atefBB/WebSqlDbJS.git"
+  },
+  "keywords": [
+    "web",
+    "sql",
+    "database"
+  ],
+  "author": "Atef Ben Ali Aymen Ben Salah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atefBB/WebSqlDbJS/issues"
+  },
+  "homepage": "https://github.com/atefBB/WebSqlDbJS#readme"
+}
