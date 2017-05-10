@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/atefBB/WebSqlDbJS/issues"
   },
-  "homepage": "https://github.com/atefBB/WebSqlDbJS#readme"
+  "homepage": "https://github.com/atefBB/WebSqlDbJS#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
