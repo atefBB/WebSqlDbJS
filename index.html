@@ -6,20 +6,10 @@
 <body>
   <input type="text" name="name" id="name">
   <input type="button" id="addBtn" value="add">
-  <script type="text/javascript">
-  	    var name = document.getElementById('name'),
-  	        addBtn = document.getElementById('addBtn'),
-  	        db = openDatabase("addUser", "0.1", "adding user", "1024*1024*1024");
-  	    
-  	    db.transaction(
-    	    function(tx){
-    	   	   tx.executeSql(
-    	   	   	"CREATE TABLE user(id int primarykey,"
-    	   	   	+ "name text)", 
-    	   	   	[]);
-    	    });
-
-
+  <input type="button" id="deleteBtn" value="deleteBtn">
+  <input type="button" id="afficheBtn" value="afficheBtn">
+  <p id="names"></p>
+  <script type="text/javascript" src="main.js">
   </script>
 </body>
 </html>
